@@ -1,0 +1,43 @@
+.cardDiv {
+	margin: auto;
+	height: fit-content;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	background-color: #640abd;
+	border-radius: 8px;
+	
+}
+.cardDiv h5 {
+	width: 200px;
+	margin: 0 24px;
+	color: #fff;
+	font-size: 15px;
+}
+.cardDiv .checkBox {
+	width: 20px;
+	height: 20px;
+}
+.deletebtn {
+	min-width: 120px;
+	background-color: #e74d42;
+}
+.editbtn,
+.deletebtn {
+	justify-content: end;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 4px;
+	transition: background-color 0.15s;
+	color: white;
+}
+.deletebtn:hover {
+	background-color: #cc3d32;
+}
+.editbtn {
+	min-width: 100px;
+	background-color: rgb(83, 81, 209);
+}
+.editbtn:hover {
+	background-color: rgb(64, 62, 185);
+}
